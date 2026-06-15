@@ -1,33 +1,22 @@
-HELP.md
+# Logs
+*.log
+
+# PID files
+*.pid
+
+# Maven build output
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Frontend dependencies
+frontend/node_modules/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Frontend build output
+frontend/dist/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# IDE files
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
